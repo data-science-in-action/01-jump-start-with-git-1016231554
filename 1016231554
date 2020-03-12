@@ -1,0 +1,15 @@
+following task. Consider approximation of the distribution function of
+$N(0, 1)$,
+\begin{equation}
+\Phi(t) = \int_{-\infty}^t \frac{1}{\sqrt{2\pi}} e^{-y^2 / 2} \dd y,
+(\#eq:cdf)
+\end{equation}
+by the Monte Carlo methods:
+\begin{equation}
+\hat\Phi(t) = \frac{1}{n} \sum_{i=1}^n I(X_i \le t),
+\end{equation}
+where $X_i$'s are a random sample from $N(0, 1)$, and $I(\cdot)$ is
+the indicator function. Experiment with the approximation at
+$n \in \{10^2, 10^3, 10^4\}$ at
+$t \in \{0.0, 0.67, 0.84, 1.28, 1.65, 2.32, 2.58, 3.09, 3.72\}$ to
+form a table.
